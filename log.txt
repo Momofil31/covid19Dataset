@@ -1,0 +1,389 @@
+RANDOM FOREST
+
+Training time: 1.8554184436798096s
+Performance on training: {'Acc': 0.9977584757635192, 'mAcc': 0.9982348680496216, 'mIoU': 0.9963064193725586}
+Performance on validation: {'Acc': 0.43650126156433977, 'mAcc': 0.24774503707885742, 'mIoU': 0.13366471230983734}
+Evaluation time: 0.01749873161315918s
+
+VAL  | acc: 0.4365 | mAcc: 0.2477 | mIoU: 0.1337
+
+Confusion matrix on validation set:
+tensor([[482.,  18., 268., 270.],
+        [  0.,   0.,   0.,   0.],
+        [ 42.,   1.,  26.,  22.],
+        [ 29.,   1.,  19.,  11.]])
+
+*******************************************************************************************************************
+
+SUPPORT VECTOR MACHINE
+
+Training time: 32.24893832206726s
+Evaluation time: 3.764711618423462s
+
+Best model is: R10
+Performance on training: {'Acc': 0.9078173157747268, 'mAcc': 0.9389855265617371, 'mIoU': 0.8709490299224854}
+
+VAL  | acc: 0.3659 | mAcc: 0.2564 | mIoU: 0.1571
+
+Confusion matrix on validation set:
+tensor([[269.,   7., 139., 130.],
+        [  0.,   0.,   0.,   0.],
+        [148.,  11.,  81.,  88.],
+        [136.,   2.,  93.,  85.]])
+
+******************************************************************************************************************
+
+LeNet
+
+-- EPOCH 1/20 -------------------------
+
+	TRAIN | acc: 0.6175 | mAcc: 0.6058 | mIoU: 0.4570
+	EVAL  | acc: 0.6098 | mAcc: 0.5980 | mIoU: 0.4382
+
+-- EPOCH 2/20 -------------------------
+
+	TRAIN | acc: 0.7854 | mAcc: 0.7771 | mIoU: 0.6634
+	EVAL  | acc: 0.7258 | mAcc: 0.6835 | mIoU: 0.5671
+
+-- EPOCH 3/20 -------------------------
+
+	TRAIN | acc: 0.8302 | mAcc: 0.8278 | mIoU: 0.7271
+	EVAL  | acc: 0.7687 | mAcc: 0.7597 | mIoU: 0.6336
+
+-- EPOCH 4/20 -------------------------
+
+	TRAIN | acc: 0.8389 | mAcc: 0.8324 | mIoU: 0.7328
+	EVAL  | acc: 0.7696 | mAcc: 0.7850 | mIoU: 0.6468
+
+-- EPOCH 5/20 -------------------------
+
+	TRAIN | acc: 0.8621 | mAcc: 0.8618 | mIoU: 0.7745
+	EVAL  | acc: 0.7754 | mAcc: 0.7828 | mIoU: 0.6578
+
+-- EPOCH 6/20 -------------------------
+
+	TRAIN | acc: 0.8798 | mAcc: 0.8742 | mIoU: 0.7918
+	EVAL  | acc: 0.7763 | mAcc: 0.7916 | mIoU: 0.6689
+
+-- EPOCH 7/20 -------------------------
+
+	TRAIN | acc: 0.8756 | mAcc: 0.8749 | mIoU: 0.7928
+	EVAL  | acc: 0.7712 | mAcc: 0.7865 | mIoU: 0.6537
+
+-- EPOCH 8/20 -------------------------
+
+	TRAIN | acc: 0.8913 | mAcc: 0.8911 | mIoU: 0.8160
+	EVAL  | acc: 0.7721 | mAcc: 0.7861 | mIoU: 0.6548
+
+-- EPOCH 9/20 -------------------------
+
+	TRAIN | acc: 0.8938 | mAcc: 0.8944 | mIoU: 0.8202
+	EVAL  | acc: 0.7637 | mAcc: 0.7888 | mIoU: 0.6606
+
+-- EPOCH 10/20 -------------------------
+
+	TRAIN | acc: 0.8930 | mAcc: 0.8918 | mIoU: 0.8169
+	EVAL  | acc: 0.7721 | mAcc: 0.7888 | mIoU: 0.6540
+
+-- EPOCH 11/20 -------------------------
+
+	TRAIN | acc: 0.9014 | mAcc: 0.9007 | mIoU: 0.8289
+	EVAL  | acc: 0.7855 | mAcc: 0.7929 | mIoU: 0.6617
+
+-- EPOCH 12/20 -------------------------
+
+	TRAIN | acc: 0.8966 | mAcc: 0.8946 | mIoU: 0.8206
+	EVAL  | acc: 0.7696 | mAcc: 0.7883 | mIoU: 0.6532
+
+-- EPOCH 13/20 -------------------------
+
+	TRAIN | acc: 0.8952 | mAcc: 0.8958 | mIoU: 0.8232
+	EVAL  | acc: 0.7696 | mAcc: 0.7864 | mIoU: 0.6537
+
+-- EPOCH 14/20 -------------------------
+
+	TRAIN | acc: 0.8972 | mAcc: 0.8971 | mIoU: 0.8239
+	EVAL  | acc: 0.7729 | mAcc: 0.7871 | mIoU: 0.6544
+
+-- EPOCH 15/20 -------------------------
+
+	TRAIN | acc: 0.9036 | mAcc: 0.9020 | mIoU: 0.8316
+	EVAL  | acc: 0.7704 | mAcc: 0.7860 | mIoU: 0.6531
+
+-- EPOCH 16/20 -------------------------
+
+	TRAIN | acc: 0.9078 | mAcc: 0.9057 | mIoU: 0.8371
+	EVAL  | acc: 0.7738 | mAcc: 0.7890 | mIoU: 0.6565
+
+-- EPOCH 17/20 -------------------------
+
+	TRAIN | acc: 0.9039 | mAcc: 0.9025 | mIoU: 0.8324
+	EVAL  | acc: 0.7738 | mAcc: 0.7896 | mIoU: 0.6567
+
+-- EPOCH 18/20 -------------------------
+
+	TRAIN | acc: 0.9008 | mAcc: 0.9014 | mIoU: 0.8305
+	EVAL  | acc: 0.7721 | mAcc: 0.7865 | mIoU: 0.6541
+
+-- EPOCH 19/20 -------------------------
+
+	TRAIN | acc: 0.8927 | mAcc: 0.8925 | mIoU: 0.8179
+	EVAL  | acc: 0.7696 | mAcc: 0.7850 | mIoU: 0.6519
+
+-- EPOCH 20/20 -------------------------
+
+	TRAIN | acc: 0.9025 | mAcc: 0.9035 | mIoU: 0.8340
+	EVAL  | acc: 0.7712 | mAcc: 0.7860 | mIoU: 0.6535
+
+TEST  | acc: 0.7712 | mAcc: 0.7860 | mIoU: 0.6535
+
+Model LeNet
+Confusion matrix for validation set
+tensor([[428.,   1.,  11., 113.],
+        [  1.,  16.,   1.,   2.],
+        [  7.,   0., 282.,  24.],
+        [ 98.,   2.,  12., 191.]])
+
+
+Class accuracy for validation set
+tensor([0.8015, 0.8421, 0.9216, 0.5788])
+Training time: 184.45719647407532s
+Evaluating time: 2.312927484512329
+
+******************************************************************************************************************
+
+CNN3
+
+-- EPOCH 1/20 -------------------------
+
+	TRAIN | acc: 0.8308 | mAcc: 0.8319 | mIoU: 0.7363
+	EVAL  | acc: 0.7704 | mAcc: 0.7841 | mIoU: 0.6435
+
+-- EPOCH 2/20 -------------------------
+
+	TRAIN | acc: 0.8764 | mAcc: 0.8756 | mIoU: 0.7946
+	EVAL  | acc: 0.7611 | mAcc: 0.7732 | mIoU: 0.6342
+
+-- EPOCH 3/20 -------------------------
+
+	TRAIN | acc: 0.8972 | mAcc: 0.8975 | mIoU: 0.8248
+	EVAL  | acc: 0.7494 | mAcc: 0.7868 | mIoU: 0.6335
+
+-- EPOCH 4/20 -------------------------
+
+	TRAIN | acc: 0.9140 | mAcc: 0.9119 | mIoU: 0.8468
+	EVAL  | acc: 0.7637 | mAcc: 0.7830 | mIoU: 0.6218
+
+-- EPOCH 5/20 -------------------------
+
+	TRAIN | acc: 0.9269 | mAcc: 0.9272 | mIoU: 0.8711
+	EVAL  | acc: 0.7578 | mAcc: 0.7975 | mIoU: 0.6034
+
+-- EPOCH 6/20 -------------------------
+
+	TRAIN | acc: 0.9476 | mAcc: 0.9464 | mIoU: 0.9030
+	EVAL  | acc: 0.7729 | mAcc: 0.7852 | mIoU: 0.6425
+
+-- EPOCH 7/20 -------------------------
+
+	TRAIN | acc: 0.9577 | mAcc: 0.9583 | mIoU: 0.9225
+	EVAL  | acc: 0.7620 | mAcc: 0.7759 | mIoU: 0.6362
+
+-- EPOCH 8/20 -------------------------
+
+	TRAIN | acc: 0.9669 | mAcc: 0.9659 | mIoU: 0.9352
+	EVAL  | acc: 0.7561 | mAcc: 0.7721 | mIoU: 0.6308
+
+-- EPOCH 9/20 -------------------------
+
+	TRAIN | acc: 0.9644 | mAcc: 0.9650 | mIoU: 0.9345
+	EVAL  | acc: 0.7443 | mAcc: 0.7904 | mIoU: 0.6353
+
+-- EPOCH 10/20 -------------------------
+
+	TRAIN | acc: 0.9748 | mAcc: 0.9753 | mIoU: 0.9526
+	EVAL  | acc: 0.7527 | mAcc: 0.7743 | mIoU: 0.6292
+
+-- EPOCH 11/20 -------------------------
+
+	TRAIN | acc: 0.9770 | mAcc: 0.9763 | mIoU: 0.9545
+	EVAL  | acc: 0.7561 | mAcc: 0.7761 | mIoU: 0.6319
+
+-- EPOCH 12/20 -------------------------
+
+	TRAIN | acc: 0.9745 | mAcc: 0.9746 | mIoU: 0.9514
+	EVAL  | acc: 0.7544 | mAcc: 0.7763 | mIoU: 0.6294
+
+-- EPOCH 13/20 -------------------------
+
+	TRAIN | acc: 0.9751 | mAcc: 0.9751 | mIoU: 0.9521
+	EVAL  | acc: 0.7611 | mAcc: 0.7744 | mIoU: 0.6310
+
+-- EPOCH 14/20 -------------------------
+
+	TRAIN | acc: 0.9787 | mAcc: 0.9786 | mIoU: 0.9589
+	EVAL  | acc: 0.7578 | mAcc: 0.7743 | mIoU: 0.6302
+
+-- EPOCH 15/20 -------------------------
+
+	TRAIN | acc: 0.9787 | mAcc: 0.9789 | mIoU: 0.9594
+	EVAL  | acc: 0.7553 | mAcc: 0.7731 | mIoU: 0.6278
+
+-- EPOCH 16/20 -------------------------
+
+	TRAIN | acc: 0.9751 | mAcc: 0.9753 | mIoU: 0.9529
+	EVAL  | acc: 0.7527 | mAcc: 0.7732 | mIoU: 0.6268
+
+-- EPOCH 17/20 -------------------------
+
+	TRAIN | acc: 0.9821 | mAcc: 0.9820 | mIoU: 0.9654
+	EVAL  | acc: 0.7578 | mAcc: 0.7762 | mIoU: 0.6304
+
+-- EPOCH 18/20 -------------------------
+
+	TRAIN | acc: 0.9840 | mAcc: 0.9840 | mIoU: 0.9690
+	EVAL  | acc: 0.7561 | mAcc: 0.7747 | mIoU: 0.6299
+
+-- EPOCH 19/20 -------------------------
+
+	TRAIN | acc: 0.9801 | mAcc: 0.9802 | mIoU: 0.9621
+	EVAL  | acc: 0.7569 | mAcc: 0.7742 | mIoU: 0.6294
+
+-- EPOCH 20/20 -------------------------
+
+	TRAIN | acc: 0.9793 | mAcc: 0.9794 | mIoU: 0.9604
+	EVAL  | acc: 0.7561 | mAcc: 0.7753 | mIoU: 0.6302
+
+TEST  | acc: 0.7561 | mAcc: 0.7753 | mIoU: 0.6302
+
+Model CNN3
+Confusion matrix for validation set
+tensor([[427.,   1.,  10., 115.],
+        [  2.,  15.,   0.,   3.],
+        [ 16.,   0., 278.,  19.],
+        [113.,   2.,   9., 179.]])
+
+
+Class accuracy for validation set
+tensor([0.7652, 0.8333, 0.9360, 0.5665])
+Training time: 184.74418306350708
+Evaluating time: 2.290801525115967
+
+******************************************************************************************************************
+
+CNN4
+
+-- EPOCH 1/20 -------------------------
+
+	TRAIN | acc: 0.6097 | mAcc: 0.6064 | mIoU: 0.4653
+	EVAL  | acc: 0.4937 | mAcc: 0.6037 | mIoU: 0.3872
+
+-- EPOCH 2/20 -------------------------
+
+	TRAIN | acc: 0.7602 | mAcc: 0.7594 | mIoU: 0.6443
+	EVAL  | acc: 0.7477 | mAcc: 0.7315 | mIoU: 0.6080
+
+-- EPOCH 3/20 -------------------------
+
+	TRAIN | acc: 0.8187 | mAcc: 0.8165 | mIoU: 0.7147
+	EVAL  | acc: 0.7401 | mAcc: 0.7550 | mIoU: 0.6293
+
+-- EPOCH 4/20 -------------------------
+
+	TRAIN | acc: 0.8380 | mAcc: 0.8364 | mIoU: 0.7422
+	EVAL  | acc: 0.7679 | mAcc: 0.7635 | mIoU: 0.6246
+
+-- EPOCH 5/20 -------------------------
+
+	TRAIN | acc: 0.8610 | mAcc: 0.8587 | mIoU: 0.7711
+	EVAL  | acc: 0.7384 | mAcc: 0.7603 | mIoU: 0.6167
+
+-- EPOCH 6/20 -------------------------
+
+	TRAIN | acc: 0.8714 | mAcc: 0.8730 | mIoU: 0.7909
+	EVAL  | acc: 0.7653 | mAcc: 0.7792 | mIoU: 0.6220
+
+-- EPOCH 7/20 -------------------------
+
+	TRAIN | acc: 0.8868 | mAcc: 0.8873 | mIoU: 0.8104
+	EVAL  | acc: 0.7670 | mAcc: 0.7788 | mIoU: 0.6229
+
+-- EPOCH 8/20 -------------------------
+
+	TRAIN | acc: 0.8804 | mAcc: 0.8807 | mIoU: 0.8015
+	EVAL  | acc: 0.7679 | mAcc: 0.7797 | mIoU: 0.6221
+
+-- EPOCH 9/20 -------------------------
+
+	TRAIN | acc: 0.8815 | mAcc: 0.8799 | mIoU: 0.8021
+	EVAL  | acc: 0.7839 | mAcc: 0.7821 | mIoU: 0.6171
+
+-- EPOCH 10/20 -------------------------
+
+	TRAIN | acc: 0.8952 | mAcc: 0.8977 | mIoU: 0.8261
+	EVAL  | acc: 0.7771 | mAcc: 0.7843 | mIoU: 0.6192
+
+-- EPOCH 11/20 -------------------------
+
+	TRAIN | acc: 0.8986 | mAcc: 0.8986 | mIoU: 0.8281
+	EVAL  | acc: 0.7712 | mAcc: 0.7813 | mIoU: 0.6149
+
+-- EPOCH 12/20 -------------------------
+
+	TRAIN | acc: 0.8952 | mAcc: 0.8982 | mIoU: 0.8280
+	EVAL  | acc: 0.7754 | mAcc: 0.7890 | mIoU: 0.6304
+
+-- EPOCH 13/20 -------------------------
+
+	TRAIN | acc: 0.8963 | mAcc: 0.8985 | mIoU: 0.8278
+	EVAL  | acc: 0.7721 | mAcc: 0.7781 | mIoU: 0.6135
+
+-- EPOCH 14/20 -------------------------
+
+	TRAIN | acc: 0.9123 | mAcc: 0.9122 | mIoU: 0.8480
+	EVAL  | acc: 0.7780 | mAcc: 0.7839 | mIoU: 0.6203
+
+-- EPOCH 15/20 -------------------------
+
+	TRAIN | acc: 0.9025 | mAcc: 0.9041 | mIoU: 0.8356
+	EVAL  | acc: 0.7780 | mAcc: 0.7841 | mIoU: 0.6204
+
+-- EPOCH 16/20 -------------------------
+
+	TRAIN | acc: 0.9028 | mAcc: 0.9030 | mIoU: 0.8352
+	EVAL  | acc: 0.7805 | mAcc: 0.7875 | mIoU: 0.6241
+
+-- EPOCH 17/20 -------------------------
+
+	TRAIN | acc: 0.9101 | mAcc: 0.9074 | mIoU: 0.8413
+	EVAL  | acc: 0.7813 | mAcc: 0.7870 | mIoU: 0.6239
+
+-- EPOCH 18/20 -------------------------
+
+	TRAIN | acc: 0.9092 | mAcc: 0.9084 | mIoU: 0.8423
+	EVAL  | acc: 0.7780 | mAcc: 0.7849 | mIoU: 0.6213
+
+-- EPOCH 19/20 -------------------------
+
+	TRAIN | acc: 0.9059 | mAcc: 0.9055 | mIoU: 0.8380
+	EVAL  | acc: 0.7805 | mAcc: 0.7873 | mIoU: 0.6240
+
+-- EPOCH 20/20 -------------------------
+
+	TRAIN | acc: 0.9151 | mAcc: 0.9151 | mIoU: 0.8527
+	EVAL  | acc: 0.7813 | mAcc: 0.7882 | mIoU: 0.6251
+
+TEST  | acc: 0.7813 | mAcc: 0.7882 | mIoU: 0.6251
+
+Model CCN4
+Confusion matrix for validation set
+tensor([[427.,   1.,   7., 118.],
+        [  1.,  12.,   2.,   5.],
+        [  9.,   0., 281.,  23.],
+        [ 85.,   2.,   7., 209.]])
+
+
+Class accuracy for validation set
+tensor([0.8180, 0.8000, 0.9461, 0.5887])
+Training time: 318.28707814216614
+Evaluating time: 3.240133285522461
