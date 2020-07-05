@@ -1,6 +1,9 @@
 # covid19Dataset
 This repository contains the dataset for Unitn Algoritmi Avanzati 2020 project. The code is in this [Google Colab Notebook](https://colab.research.google.com/drive/1tTcINLbBPCb3XQDNEGBkENXJpaOUBbLE?usp=sharing).
 
+## Report
+The file report.pdf contains the report of the project.
+
 ## Dataset
 **Data**: we have ~6000 thoracic x-ray images, each one has a 256x256 pixels resolution. These images have been obtained on people affected by one of the three illnesses or people without any illness. As usually done when developing such an algorithm, we need to make some considerations:
  
